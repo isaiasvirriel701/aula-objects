@@ -1,0 +1,96 @@
+const filme = {
+diretor : [' brian de palma '],
+nome : ['scareface'],
+data : ['1 de dezembro de 1983'],
+elenco : ['Al pacino', 'steven bauer', 'michelle pfeiffer'],
+assistido : true
+
+}
+console.log(filme.diretor);
+console.log(filme.nome);
+console.log(filme.data);
+console.log(filme["elenco"]);
+console.log(filme["assistido"]);*/
+/*
+onst pessoa = {
+nome : ['daniel'],
+idade : 19,
+musica : ['trap'],    
+}
+
+console.log("o nome da pessoa e " + pessoa.nome,'ele tem ' + pessoa.idade, 'anos e gosta de ', + pessoa.musica);c*/
+/*
+const Filme = {
+diretor : [ "brian de palma"],
+nome : ['scareface'],
+data : ['1 de dezembro de 1983'],
+elenco : ['Al pacino', 'steven bauer', 'michelle pfeiffer'],
+assistido : true,        
+}
+Filme.personagens = ["Tony Montana", "Manny Ray", "Elvira Hancock"];
+
+console.log(Filme.diretor);
+console.log(Filme.nome);
+console.log(Filme.data);
+console.log(Filme["elenco"]);
+console.log(Filme["assistido"]);  
+console.log(Filme["personagens"]);
+
+objetoFilme.personagens = ["personagem1", "personagem2", "personagem3"];
+console.log(objetoFilme.elenco[0] + "->" + 
+objetoFilme.personagens[0]);
+console.log(objetoFilme.elenco[1] + "->" + 
+objetoFilme.personagens[1]);
+console.log(objetoFilme.elenco[2] + "->" + 
+objetoFilme.personagens[2]);
+
+
+*/
+
+/*const usuario = {
+    nome: 'prof' ,
+    idade: 25,
+    email:'prof@senacrs.com.br',
+    cidade:'São Paulo'
+}
+
+const novoUsuario = {
+    ...usuario,
+    nome:'joão',
+idade:28
+}
+
+console.log(usuario);
+console.log(novoUsuario);*/
+/*
+const listaDeNomes = ["mika", "paula", "vitor"]
+
+const copiaListaDeNomes = [...listaDeNomes]
+
+
+console.log(copiaListaDeNomes);*/
+/*
+const pessoa = {
+    nome : ['daniel'],
+    idade : 19,
+    musica : ['trap'],    
+    }
+    
+    console.log("o nome da pessoa e " + pessoa.nome,'ele tem ' + pessoa.idade, "anos e gosta de ", + pessoa.musica);
+
+    function novaPessoa (pessoa) {
+let novaPessoa = {
+    ...pessoa 
+}
+    };
+    
+    novaPessoa.comidasPreferidas = ['pizza', 'hamburguer', 'sorvete'];
+
+    novaPessoa.melhorAmigo = {
+        nome: 'carlos',
+        idade: 19
+    
+    };
+    console.log('o nome da pessoa e {novaPessoa.nome} e suas comidas preferidas são {novaPessoa.comidasPreferidas.join(',')}. seu melhor amigo se chama {novaPessoa.melhorAmigo.nome} e tem {novaPessoa.melhorAmigo.idade} anos'
+    ); */
+
